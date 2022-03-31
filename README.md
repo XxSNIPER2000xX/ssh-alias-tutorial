@@ -34,4 +34,4 @@ replace remote_ip_adress with the ip address of your remote device, can be found
 
 save the file
 
-complete!!
+complete, you can now use ```ssh your_alias```!!
