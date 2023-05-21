@@ -23,8 +23,8 @@ open a text editor to ```~/.ssh/config```
 write or copy and paste:
 ```
 Host your_alias
-User remote_username
-Host remote_ip_adress
+  User remote_username
+  HostName remote_ip_adress
 ```
 replace your_alias with what you want your alias to be
 
