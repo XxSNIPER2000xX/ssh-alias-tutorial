@@ -1,7 +1,3 @@
-# ssh-alias-tutorial
-simple tutorial on using a config file to alias your remote device
-
-
 <h2>Introduction</h2>
 
 this tutorial will change something like this:
@@ -26,12 +22,12 @@ Host your_alias
   User remote_username
   HostName remote_ip_adress
 ```
-replace your_alias with what you want your alias to be
+replace ```your_alias``` with whatever you want your alias to be
 
-replace remote_username with the username of your remote device
+replace ```remote_username``` with the username of your remote device
 
-replace remote_ip_adress with the ip address of your remote device, can be found using ```ifconfig``` on the remote device
+replace ```remote_ip_adress``` with the ip address of your remote device, which can be found by using ```ifconfig``` on the remote device
 
 save the file
 
-complete, you can now use ```ssh your_alias```!!
+you can now use ```ssh your_alias```!!
